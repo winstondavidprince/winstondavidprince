@@ -345,7 +345,7 @@ strong {
 .hero-section {
   background-image: url('../images/winston-david-prince-1.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -447,7 +447,7 @@ strong {
 .featured-section {
   background-image: url('../images/winston-david-prince-tamil-christian-song.JPG');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   position: relative;
   text-align: center;
@@ -563,7 +563,7 @@ strong {
 .booking-section {
   background-image: url('../images/winston-david-prince-New-Tamil-Christian-song.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
@@ -861,6 +861,13 @@ strong {
 @media (min-width: 769px) {
   .responsive-form {
     padding-bottom: 100%;
+  }
+}
+
+/* iOS Safari Fix: Override background-attachment */
+@supports (-webkit-overflow-scrolling: touch) {
+  .hero-section {
+    background-attachment: scroll !important;
   }
 }
 
