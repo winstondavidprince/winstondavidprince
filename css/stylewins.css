@@ -447,7 +447,7 @@ strong {
 .featured-section {
   background-image: url('../images/winston-david-prince-tamil-christian-song.JPG');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   position: relative;
   text-align: center;
@@ -563,7 +563,7 @@ strong {
 .booking-section {
   background-image: url('../images/winston-david-prince-New-Tamil-Christian-song.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
