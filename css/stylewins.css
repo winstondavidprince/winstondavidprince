@@ -871,4 +871,16 @@ strong {
   }
 }
 
+@supports (-webkit-overflow-scrolling: touch) {
+  .featured-section {
+    background-attachment: scroll !important;
+  }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .booking-section {
+    background-attachment: scroll !important;
+  }
+}
+
 
